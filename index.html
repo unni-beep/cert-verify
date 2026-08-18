@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Verification</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: #f4f6f9; color: #333; display: flex; flex-direction: column; min-height: 100vh; justify-content: center; align-items: center; padding: 20px; }
+        .card { background: #ffffff; max-width: 500px; width: 100%; border-radius: 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); overflow: hidden; padding: 32px 24px; text-align: center; }
+        .badge-icon { width: 64px; height: 64px; background-color: #e6f4ea; color: #1e8e3e; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 32px; margin: 0 auto 16px auto; }
+        .status-badge { display: inline-block; background-color: #e6f4ea; color: #137333; font-weight: 600; font-size: 14px; padding: 6px 16px; border-radius: 50px; margin-bottom: 12px; }
+        h1 { font-size: 22px; color: #202124; margin-bottom: 6px; }
+        .cred-id { font-size: 14px; color: #5f6368; font-weight: 500; margin-bottom: 24px; }
+        .details-container { border-top: 1px solid #e8eaed; border-bottom: 1px solid #e8eaed; padding: 20px 0; text-align: left; margin-bottom: 20px; }
+        .field { margin-bottom: 16px; }
+        .field:last-child { margin-bottom: 0; }
+        .label { font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; color: #70757a; margin-bottom: 4px; font-weight: 600; }
+        .value { font-size: 16px; color: #202124; font-weight: 600; }
+        .footer-info { font-size: 13px; color: #70757a; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; }
+        .footer-info strong { color: #3c4043; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="badge-icon">✓</div>
+    <div class="status-badge">Verified Credential</div>
+    <h1>Certificate Authenticated</h1>
+    <p class="cred-id">Credential ID: DT-CERT-00369</p>
+
+    <div class="details-container">
+        <div class="field">
+            <div class="label">Recipient Name</div>
+            <div class="value">Muhammad Unal</div>
+        </div>
+        <div class="field">
+            <div class="label">Internship Program</div>
+            <div class="value">Data Science Intern</div>
+        </div>
+        <div class="field">
+            <div class="label">Organization</div>
+            <div class="value">DawoodTech NextGen</div>
+        </div>
+    </div>
+
+    <div class="footer-info">
+        <span>Authority: <strong>DawoodTech NextGen</strong></span>
+        <span>Verified: <strong>Aug 18, 2026</strong></span>
+    </div>
+</div>
+
+</body>
+</html>
